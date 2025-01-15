@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* https://colorhunt.co/palette/2e50774da1a979d7bef6f4f0 */
+/* Color palete */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-family: var(--font-kanit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+body
+{
+  background-color: #4DA1A9;
+  font-family: var(--font-family), sans-serif;
 }
