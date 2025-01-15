@@ -3,7 +3,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import ReturnButton from '@/app/components/returnButton';
-import Question from '@/app/components/Question';
 import QuestionInput from '@/app/components/questionInput';
 
 function page() {

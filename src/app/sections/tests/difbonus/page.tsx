@@ -1,6 +1,6 @@
 "use client"
 
-import React, { JSX, useState } from "react";
+import React, { useState } from "react";
 import { TypeAnimation } from 'react-type-animation';
 import ReturnButton from '@/app/components/returnButton';
 
